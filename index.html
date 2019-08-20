@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!------------------------HEADER SECTION ---------------------------------------------->
+<header>
+  <h1>Rock Paper Scissors</h1>
+</header>
+<body>
+
+  <!------------------------SCOREBOARD SECTION ----------------------------------------------->
+<div class="scoreBoard">
+    <div id="user" class="badge">user</div><!--badge left-->
+    <div id="comp" class="badge">comp</div><!--badge righty-->
+    
+    <span id="user-score">0</span><!--user-scr strts at 0 updated through js-->
+    :
+    <span id="comp-score">0</span><!--comp-scorestarts at 0 updated through js-->
+</div>
+
+<!-------------------------- RESULT SECTION -------------------------------------------->
+<div class="result">
+    <p> You ready Freddy???</p>
+
+    
+    
+    
+  
+</div>
+
+<!---------------------------CHOICES SECTION -------------------------------------------->
+<div class="choices"><!--choices container-->
+  <div class="choice" id="r"><!--choice r-->
+   <i class="fa fa-hand-rock-o" style="font-size:75px; color:white;"></i>
+  </div>
+
+  <div class="choice" id="p"><!--choice p-->
+    <i class="fa fa-hand-paper-o" style="font-size:75px; color:white;"></i>
+  </div>
+
+  <div class="choice" id="s"><!--choice s-->
+    <i class="fa fa-hand-scissors-o" style="font-size:75px; color:white;"></i>
+  </div>
+</div>
+<!-------------------------------- ACTION MSG SECTION -------------------------------------------->
+<p id="action-message">Make your Move</p>
+
+<script src="app.js"></script>
+
+</body>
+</html>
